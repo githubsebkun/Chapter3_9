@@ -12,6 +12,7 @@
         <project.build.sourceEncoding>UTF8</project.build.sourceEncoding>
     </properties>
 
+
     <dependencies>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>

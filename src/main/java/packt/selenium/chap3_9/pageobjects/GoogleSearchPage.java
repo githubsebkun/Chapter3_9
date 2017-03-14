@@ -12,7 +12,7 @@ public class GoogleSearchPage {
         this.driver = driver;
         System.out.println(driver.getTitle());
         if (!driver.getTitle().equals("Mastering Selenium Testing Tools - Google Search")){
-            throw new WrongPageException("Incorrect page for Google Search page");
+            throw new  WrongPageException("Incorrect page for Google Search page");
         }
     }
     public String getNumberOfResults(){
