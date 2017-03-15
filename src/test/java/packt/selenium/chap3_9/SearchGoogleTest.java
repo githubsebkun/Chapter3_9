@@ -38,5 +38,6 @@ public class SearchGoogleTest {
         searchPage.getNumberOfResults();
         //adding a test content
         //adding another line here
+        //yet another testing line added
     }
 }
