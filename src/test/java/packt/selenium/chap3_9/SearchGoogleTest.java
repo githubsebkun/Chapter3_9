@@ -37,5 +37,6 @@ public class SearchGoogleTest {
         searchPage = googlePage.goToSearchPage();
         searchPage.getNumberOfResults();
         //adding a test content
+        //adding another line here
     }
 }
