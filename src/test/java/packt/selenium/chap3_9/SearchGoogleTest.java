@@ -36,6 +36,6 @@ public class SearchGoogleTest {
         googlePage = new Google(driver);
         searchPage = googlePage.goToSearchPage();
         searchPage.getNumberOfResults();
-        
+        //adding a test content
     }
 }
