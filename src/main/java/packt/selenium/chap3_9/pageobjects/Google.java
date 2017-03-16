@@ -27,5 +27,6 @@ public class Google {
         WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.presenceOfElementLocated(By.id("resultStats")));
         return new GoogleSearchPage(driver);
+        //test
     }
 }
